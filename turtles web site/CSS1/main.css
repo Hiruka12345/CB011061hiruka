@@ -1,0 +1,49 @@
+.container-info {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(245, 245, 245); 
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .container-info {
+        float: left;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%; 
+    } 
+}
+
+
+.fbt{
+    border: 2px solid;
+    border-color: black;
+    padding: 20px 0px;
+    margin: 0 50px;
+    text-align: start;
+}
+.fbt form{
+    display: grid;
+}
+
+.fbt .container form input{
+    width: 200px;
+    height: 30px;
+}
+
+.continue{
+    background-color: pink;
+    color: white;
+    height: 40px;
+    width: 550px;
+    border: 2px;
+    
+
+}
+
+.continue a{
+    text-decoration: none;
+}
+
